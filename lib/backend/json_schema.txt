@@ -1,0 +1,13 @@
+This is a sample schema for incoming data that can be used with RFW.
+
+{
+"type": "String", // The type of RFW widget (e.g., Text, Button, Column)
+"children": [ // Optional - List of child widgets for container-like widgets
+    { ...child widget definition... },
+{ ...another child widget definition... }
+],
+"properties": { // Optional - Key-value pairs for widget properties
+"text": "String", // Example property for Text widget
+"onPressed": "() => void", // Example property for Button widget (function reference)
+}
+}
